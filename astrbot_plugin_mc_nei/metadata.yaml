@@ -1,0 +1,11 @@
+name: astrbot_plugin_mc_nei
+display_name: 我的世界网易版指令与ID查询
+desc: 统一使用 /查询 搜索常用指令与默认命令库中的物品、方块、实体和其他枚举 ID，内置离线数据并支持菜单图片。
+short_desc: /查询 一站式查询我的世界指令与 ID。
+author: ysgl
+version: 1.1.0
+support_platforms:
+  - aiocqhttp
+  - qq_official
+  - qq_official_webhook
+astrbot_version: ">=4.16,<5"
