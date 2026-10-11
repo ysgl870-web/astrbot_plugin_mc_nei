@@ -1,0 +1,28 @@
+{
+  "enable_command_query": {
+    "description": "启用 /查询 的指令查询和兼容命令 /mc指令",
+    "type": "bool",
+    "default": true
+  },
+  "enable_id_query": {
+    "description": "启用 /查询 的 ID/枚举查询以及兼容命令 /mcid、/mc搜索",
+    "type": "bool",
+    "default": true
+  },
+  "send_menu_image": {
+    "description": "执行 /查询（不带关键词）或 /mc菜单 时发送菜单图片",
+    "type": "bool",
+    "default": true
+  },
+  "max_results": {
+    "description": "每次关键词查询最多返回几条结果",
+    "type": "int",
+    "default": 8,
+    "slider": {"min": 3, "max": 15, "step": 1}
+  },
+  "show_version_notice": {
+    "description": "查询 ID 时显示版本兼容提醒",
+    "type": "bool",
+    "default": true
+  }
+}
